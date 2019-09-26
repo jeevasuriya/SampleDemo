@@ -3,7 +3,7 @@
    <soapenv:Header/>
    <soapenv:Body>
       <web:NumberToDollars>
-         <web:dNum>${#TestCase_1#NumberToDollar}</web:dNum>
+         <web:dNum>${#TestCase_1#NumberToDollars}</web:dNum>
       </web:NumberToDollars>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ef4e856e-ec09-41fd-a3d9-e1d72f339f08"/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="6054a472-a183-48e9-b468-30f226975d05"><con:settings/><con:config><script>testRunner.testCase.testSuite.project.addProperty("ProjectProperty1")
